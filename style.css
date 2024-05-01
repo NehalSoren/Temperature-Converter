@@ -42,7 +42,6 @@ input {
 
 input {
   width: 150px;
-  text-align: center;
 }
 
 input,
@@ -54,6 +53,7 @@ select {
   border-bottom: 2px solid #9370DB;
   background: none;
   outline: none;
+  text-align: center;
 }
 
 select {
@@ -63,21 +63,36 @@ select {
 h3 {
   margin: 10px 0 0 0;
 }
+.output {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
-#result {
+.output h3 {
+  color: black;
+}
+
+#celsius,
+#fahren,
+#kelvin {
   font-size: 24px;
   padding: 0;
   margin: 0;
-  color: #9370DB; /* Medium purple text color */
+  color: #483D8B; 
+  width: auto;
+  border-bottom: 2px solid #483D8B;
 }
 
 button {
+  margin: 10px;
   width: 212px;
-  height: 30px;
+  height: 40px;
   font-weight: bold;
   font-family: Poppins;
   font-size: 16px;
   background: linear-gradient(to bottom right, #483D8B, #9370DB); /* Purple gradient background */
   border: 1px solid #9370DB; /* Medium purple border */
-  color: #9370DB; /* Medium purple text color */
+  color: lightgrey; /* Medium purple text color */
 }

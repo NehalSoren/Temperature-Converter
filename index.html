@@ -13,39 +13,51 @@
 </head>
 
 <body>
-  
+
   <!-- CONTAINER -->
   <div class="container">
     <h1>Temperature Conversion</h1>
     <p>Made By Nehal</p>
-    
+
     <!-- INPUT -->
-    
+
     <div class="input">
-      <label for="temp">Enter Temperature:</label>
+      <label for="temp">Enter
+        Temperature:</label>
       <input type="number" required>
-      
-      <select name="temp-input" id="temp-input">
-        <option value="Celsius">Celsius</option>
-        <option value="Fahrenheit">Fahrenheit</option>
-        <option value="Kelvin">Kelvin</option>
+
+      <select name="temp-input"
+        id="temp-input">
+        <option value="Celsius" selected>Celsius
+        </option>
+        <option value="Fahrenheit">
+          Fahrenheit</option>
+        <option value="Kelvin">Kelvin
+        </option>
       </select>
     </div>
-    
+
     <!-- OUTPUT -->
     <div class="output">
-      <h3>Celsius:</h3>
-      <p id="celsius">0</p>
-      <h3>Fahrenheit:</h3>
-      <p id="fahren">0</p>
-      <h3>Kelvin:</h3>
-      <p id="kelvin">0</p>
+      <div>
+        <h3>Celsius:</h3>
+        <p id="celsius">0</p>
+      </div>
+      <div>
+        <h3>Fahrenheit:</h3>
+        <p id="fahren">0</p>
+      </div>
+      <div>
+        <h3>Kelvin:</h3>
+        <p id="kelvin">0</p>
+      </div>
     </div>
-    
-    <button id="convert">Convert</button>
-    
+
+    <button
+      id="convert">Convert</button>
+
   </div>
-  
+
   <!-- SCRIPT -->
   <script src="script.js"></script>
 
